@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* margin for body*/
+body{
+	margin:0 10%;
+}
+/* nav */
+header{
+	margin-bottom:10%;
+}
+nav{
+	display: inline-block;
+	text-align:left;	
+	/* border: 1px solid grey; */
+	width: 100%;
+	margin:2%;
+	padding:2%;
+
+	
+}
+
+/* nav menu items */
+nav a{
+	text-decoration: none;
+	color: grey;
+	padding-right:9%;
+	
+}
+
+nav img{
+	vertical-align: middle;
+}
+section{
+	/* border: 1px solid black; */
+	/* margin: 5%; */
+}
+.intro {
+	/* border: 1px solid grey; */
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 12%;
+	
+}
+h1 {
+    font-size: 685%;
+    /* margin-left: 10%; */
+    text-align: center;
+    letter-spacing: 1px;
+}
+.intro button {
+width:30%;
+border: 1px solid black;
+padding:2%;
+font-size:120%;
+}
+
+.intro img{
+	margin-left:20%;
+}
+
+.section2 {
+	margin-top: 10%;
+	padding-top:2%;
+	border-top: 1px solid black;
+}
+
+
+.details {
+    display: inline-block;
+    width: 48%;
+    padding: ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+section > img {
+	width:100%;
+}
+
+.additional-info {
+	padding-top: 3%;
+	padding-bottom:2%;
+	display:inline-block;
+	width:30%;
+}
+
+.contact{
+	padding-top:5%;
+	border-top:1px solid black;
+	margin-top:2%;
+}
+
+footer{
+	padding:2%;
+	text-align: center;
+}
